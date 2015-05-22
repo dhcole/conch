@@ -6,7 +6,7 @@ var express = require('express'),
 
 var queue = {};
 
-server.listen(80);
+server.listen(process.env.PORT || 80);
 
 app.use(express.static(__dirname + '/public'));
 app.use(function(req, res) {
