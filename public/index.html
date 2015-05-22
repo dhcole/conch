@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang=en>
+  <head>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>conch</title>
+  </head>
+  <body>
+    <h1>Conch</h1>
+    <p>Take turns.</p>
+    <button id="new">New Room</button>
+    <script>
+      document.getElementById('new').onclick = function() {
+        window.location = '/' + Math.floor(new Date() / 1000);
+      };
+    </script>
+  </body>
+</html>
