@@ -1,6 +1,6 @@
 var io = require('socket.io-client'),
     socket = io(),
-    goColor = 'green',
+    goColor = 'green url("/conch.svg") no-repeat center center',
     noGoColor = 'red',
     defaultColor = 'gray',
     waitingMessage = 'You\'re in line!',
